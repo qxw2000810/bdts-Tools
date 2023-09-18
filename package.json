@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "excel": "^1.0.1"
+  },
+  "name": "bdts-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "处理本地特色页面的工具函数",
+  "devDependencies": {},
+  "scripts": {
+    "index": "echo \"Error: no test specified\" && exit 1",
+    "bdts":"node index.js data.xlsx data.js",
+    "start": "node index.js",
+    "init": "npm run start init"
+  },
+  "author": "qianxinwei",
+  "license": "ISC",
+  "type": "module",
+  "keywords": [
+    "npm",
+    "package",
+    "本地特色处理工具"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qxw2000810/bdts-Tool.git"
+  },
+  "homepage": "https://github.com/qxw2000810/bdts-Tool/index.js"
+  
+}
