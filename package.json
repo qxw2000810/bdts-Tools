@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "excel": "^1.0.1"
+    "excel": "^2.0.0"
   },
   "name": "bdts-tool",
   "version": "1.0.0",
@@ -25,6 +25,8 @@
     "type": "git",
     "url": "git+https://github.com/qxw2000810/bdts-Tool.git"
   },
-  "homepage": "https://github.com/qxw2000810/bdts-Tool/index.js"
-  
+  "homepage": "https://github.com/qxw2000810/bdts-Tool/index.js",
+  "bin": {
+    "bdts": "./index.js"
+  }
 }
